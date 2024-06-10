@@ -7,7 +7,7 @@
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  margin: 60px 0;
+  margin: 59px 0 60px;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -371,6 +371,7 @@
 
 .u-section-3 .u-text-2 {
   font-style: normal;
+  text-shadow: 0px 0px 8px rgba(189,107,183,1);
   margin: 20px 0 0;
 }
 
@@ -497,7 +498,7 @@
 }
 
 .u-section-4 .u-sheet-1 {
-  min-height: 753px;
+  min-height: 781px;
 }
 
 .u-section-4 .u-text-1 {
@@ -506,7 +507,8 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: 60px 365px 0;
+  text-shadow: 0px 0px 8px rgba(189,107,183,1);
+  margin: 60px auto 0;
 }
 
 .u-section-4 .u-text-2 {
@@ -520,7 +522,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
   font-style: italic;
-  margin: 34px auto 0;
+  margin: 34px 208px 0;
 }
 
 .u-section-4 .u-list-1 {
@@ -614,8 +616,11 @@
 @media (max-width: 1199px) {
   .u-section-4 .u-text-1 {
     width: 681px;
-    margin-left: 301px;
-    margin-right: 301px;
+  }
+
+  .u-section-4 .u-text-2 {
+    margin-left: 108px;
+    margin-right: 108px;
   }
 
   .u-section-4 .u-repeater-1 {
@@ -636,13 +641,10 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-4 .u-text-1 {
-    margin-left: 231px;
-    margin-right: 231px;
-  }
-
   .u-section-4 .u-text-2 {
     width: 720px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-4 .u-list-1 {
@@ -667,8 +669,6 @@
 @media (max-width: 767px) {
   .u-section-4 .u-text-1 {
     width: 540px;
-    margin-left: 173px;
-    margin-right: 173px;
   }
 
   .u-section-4 .u-text-2 {
@@ -701,8 +701,6 @@
 
   .u-section-4 .u-text-1 {
     width: 340px;
-    margin-left: 109px;
-    margin-right: 109px;
   }
 
   .u-section-4 .u-text-2 {
@@ -737,6 +735,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  text-shadow: 2px 2px 8px rgba(189,107,183,0.4);
   margin: 70px auto 0;
 }
 
@@ -1197,7 +1196,7 @@
     font-size: 1.625rem;
   }
 } .u-section-6 {
-  background-image: none;
+  background-image: linear-gradient(#59427a, #1a1a1a);
 }
 
 .u-section-6 .u-sheet-1 {
